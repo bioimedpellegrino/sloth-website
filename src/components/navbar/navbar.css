@@ -1,0 +1,16 @@
+
+.navbar-black {
+    background-color: #001f12;
+  }
+  
+.bg-white {
+    background-color: white;
+}
+
+.text-black {
+    color: #001f12;
+}
+
+.nav-link {
+    color: #001f12 !important;
+}
