@@ -4,10 +4,9 @@ import { Alert } from 'react-bootstrap';
 
 function Head(){
     return (
-        <Alert className="color-orange">
+        <Alert style={{backgroundColor:"#ffae16", textAlign: "center", color: "white", borderRadius: 0}}>
             <p className="mb-0">
-                Whenever you need to, be sure to use margin utilities to keep things nice
-                and tidy.
+                Get access to all exclusive Airdrops, ETH giveaways and other big announcements we have dedicated for you!
             </p>
         </Alert>
     );
