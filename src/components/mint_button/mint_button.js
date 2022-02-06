@@ -30,11 +30,7 @@ const MintButton = (props) => {
   return (
     <div className="MintButton center">
       <button className="button-mint" id="mintButton">MINT!</button>
-      <div>
-        <ProgressBar animated now={10} />
-      </div>
     </div>
-
   );
 };
 
