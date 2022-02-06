@@ -3,6 +3,7 @@ import { ReactComponent as TwitterLogo } from '../../static/twitter.svg';
 import { ReactComponent as OpenseaLogo } from '../../static/opensea.svg';
 import { ReactComponent as SlothLogo } from '../../static/Logo_Sloff.svg';
 
+import MetaMaskConnectButton from '../metamask_button/metamask_button';
 
 import { Nav, Navbar, Container } from 'react-bootstrap';
 
@@ -12,16 +13,11 @@ function Menu(){
     return(
         <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
         <Container>
-        <Navbar.Brand href="#home" className="text-black"><SlothLogo/></Navbar.Brand>
+        <Navbar.Brand href="https://slophy.tech" target="_blank" className="text-black"><SlothLogo/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-center">
             <Nav style={{fontWeight: 'bold'}}>
-                <Nav.Link href="#learn">LEARN</Nav.Link>
-                <Nav.Link href="#rarity">RARITY</Nav.Link>
-                <Nav.Link href="#roadmap ">ROADMAP</Nav.Link>
-                <Nav.Link href="#faq">FAQ</Nav.Link>
-                <Nav.Link href="#howtomint">HOW TO MINT</Nav.Link>
-                <Nav.Link href="#collection">COLLECTION</Nav.Link>
+                <Nav.Link><MetaMaskConnectButton /></Nav.Link>
             </Nav>
         </Navbar.Collapse>
         <Nav>
